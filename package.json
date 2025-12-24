@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev",
-    "start": "bun run index.ts"
+    "start": "bun run local-server.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
