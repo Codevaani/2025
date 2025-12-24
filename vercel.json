@@ -1,0 +1,22 @@
+{
+  "bunVersion": "1.x",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "@vercel/node"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/mobile.html",
+      "destination": "/api/mobile"
+    },
+    {
+      "source": "/desktop.html",
+      "destination": "/api/desktop"
+    }
+  ]
+}
