@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev",
-    "start": "bun run index.ts",
-    "build": "echo 'No build step required'"
+    "start": "bun run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
